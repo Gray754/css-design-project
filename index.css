@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 90vw;
+    margin: auto;
+    background: rgb(15, 15, 148);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+button{
+    border: none;
+}
+
+.flex-grp{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 20vh;
+}
+
+.head-logo p:nth-of-type(1){
+    font-size: 1.5em;
+}
+
+.head-logo p:nth-of-type(2){
+    font-size: .6em;
+}
+
+.sub-btn{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 12vw;
+}
+
+.sub-btn button{
+    padding: 15px 20px;
+    background: none;
+    border: 1px solid white;
+    border-radius: 9999em;
+    color :white;
+    font-weight: bold;
+}
+
+.sub-btn button:hover{
+    background-color: white;
+    cursor: pointer;
+    color: rgb(15, 15, 148);
+}
+
+.page-links{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    width: 35vw;
+    font-size: .7em;
+    font-weight: bold;
+}
+
+.page-links a{
+    text-decoration: none;
+    color: white;
+}
+
+.page-links a:hover{
+    color: rgba(255, 255, 255, 0.425);
+}
+
+.showcase{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 45vw;
+    height: 55vh;
+    margin: auto;
+    text-align: center;
+}
+
+.showcase h1{
+    font-size: 3.2em;
+}
+
+.showcase p{
+    line-height: 2.5em;
+}
+
+.showcase h1, p, button{
+    margin: 20px;
+}
+
+.showcase button{
+    width: 10vw;
+    margin-left: auto;
+    margin-right: auto;
+    background: white;
+    color: blue;
+    border-radius: 9999em;
+    height: 4em;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 15px;
+}
+
+.showcase button:hover{
+    background: none;
+    color: white;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
